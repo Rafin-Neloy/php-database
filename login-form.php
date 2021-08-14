@@ -10,7 +10,7 @@
 
 
 <?php
-         include "dataread.php";
+         include 'dataread.php';
           $username = $password = "";
           $usernameerror = $passworderror = "";
           $flag= false;
@@ -31,9 +31,8 @@
             $password = input($_POST["password"]);
             $result =login($username,$password );
             if($result){
-              header("Location: welcome.php");
-          
-                         
+              header("Location:welcome.php");
+                        
             }
             echo "invalid Password ";
           }

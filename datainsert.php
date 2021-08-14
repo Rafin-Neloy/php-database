@@ -1,7 +1,6 @@
 <?php
 
-require "dataconnect.php";
-
+require 'dataconnect.php';
 
 
    function merge($firstname , $lastname ,$dob ,$gender, $religion ,$present, $permanent,  $tel ,$email,  $username ,$password){

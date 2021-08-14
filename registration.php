@@ -8,7 +8,7 @@
 
 
       <?php
-      include "datainsert.php";
+      include 'datainsert.php';
        $firstname = $lastname =$dob= $gender= $religion =$present = $permanent = $tel =$email =$link=$username=$password="";
 
       $firstnameerror= $lastnameerror=$doberror=$gendererror=$emailerror=$religionerror=$presenterror=$permanenterror=$telerror=$linkerror=$usernameerror=$passworderror="";
